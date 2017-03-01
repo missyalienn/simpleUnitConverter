@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F624AB9B1E6730A600991A85 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624AB9A1E6730A600991A85 /* UnitConverter.swift */; };
+		F624AB9D1E673C6500991A85 /* TemperatureRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624AB9C1E673C6500991A85 /* TemperatureRange.swift */; };
 		F96E6C991B0698880088267A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E6C981B0698880088267A /* AppDelegate.swift */; };
 		F96E6C9B1B0698880088267A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E6C9A1B0698880088267A /* ViewController.swift */; };
 		F96E6C9E1B0698880088267A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96E6C9C1B0698880088267A /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		F624AB9A1E6730A600991A85 /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		F624AB9C1E673C6500991A85 /* TemperatureRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperatureRange.swift; path = ../TemperatureRange.swift; sourceTree = "<group>"; };
 		F96E6C931B0698880088267A /* UnitConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96E6C971B0698880088267A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96E6C981B0698880088267A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		F96E6C951B0698880088267A /* UnitConverter */ = {
 			isa = PBXGroup;
 			children = (
+				F624AB9C1E673C6500991A85 /* TemperatureRange.swift */,
 				F96E6C981B0698880088267A /* AppDelegate.swift */,
 				F96E6C9A1B0698880088267A /* ViewController.swift */,
 				F96E6C9C1B0698880088267A /* Main.storyboard */,
@@ -164,6 +167,7 @@
 				TargetAttributes = {
 					F96E6C921B0698880088267A = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 57Z2TZGD3U;
 						LastSwiftMigration = 0820;
 					};
 					F96E6CA71B0698880088267A = {
@@ -217,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F624AB9D1E673C6500991A85 /* TemperatureRange.swift in Sources */,
 				F624AB9B1E6730A600991A85 /* UnitConverter.swift in Sources */,
 				F96E6C9B1B0698880088267A /* ViewController.swift in Sources */,
 				F96E6C991B0698880088267A /* AppDelegate.swift in Sources */,
@@ -354,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57Z2TZGD3U;
 				INFOPLIST_FILE = UnitConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.yourschool.$(PRODUCT_NAME:rfc1034identifier)";
@@ -366,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57Z2TZGD3U;
 				INFOPLIST_FILE = UnitConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.yourschool.$(PRODUCT_NAME:rfc1034identifier)";

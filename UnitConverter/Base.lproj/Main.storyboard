@@ -28,9 +28,9 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="ivm-FJ-awe"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM1-6C-M0z">
-                                <rect key="frame" x="102" y="180" width="171" height="85"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Temp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM1-6C-M0z">
+                                <rect key="frame" x="89" y="202" width="197" height="85"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="72"/>
                                 <color key="textColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -39,16 +39,18 @@
                         <constraints>
                             <constraint firstItem="KQ0-0r-Uda" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6WJ-m2-H0x"/>
                             <constraint firstItem="zM1-6C-M0z" firstAttribute="centerX" secondItem="KQ0-0r-Uda" secondAttribute="centerX" id="AQx-5t-QMQ"/>
-                            <constraint firstItem="zM1-6C-M0z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="160" id="bxt-uB-ueH"/>
+                            <constraint firstItem="zM1-6C-M0z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="182" id="bxt-uB-ueH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KQ0-0r-Uda" secondAttribute="bottom" constant="67" id="wPr-sY-ssT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="celsiusPicker" destination="KQ0-0r-Uda" id="n6c-Lj-uVP"/>
                         <outlet property="tempLabel" destination="zM1-6C-M0z" id="2ac-SY-sam"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>
