@@ -34,13 +34,21 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        let celciusValue = tempValues[row]
-        return "\(celciusValue)°C"
+        //let celciusValue = tempValues[row]
+        //return "\(celciusValue)°C"
+        
+        let fahrenheitValue = tempValues[row]
+        return "\(fahrenheitValue)°F"
+        
+        
     }
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        let degreesCelsius = tempValues[row]
-        tempLabel.text = "\(converter.degreesFarenheit(degreesCelsius: degreesCelsius))°F"
+       // let degreesCelsius = tempValues[row]
+        //tempLabel.text = "\(converter.degreesFarenheit(degreesCelsius: degreesCelsius))°F"
+       let degreesF = tempValues[row]
+        tempLabel.text = "\(converter.convertToCelsius(degreesF: degreesF))°C"
+        
     }
 }
 

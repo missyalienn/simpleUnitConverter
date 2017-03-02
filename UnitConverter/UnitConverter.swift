@@ -16,7 +16,10 @@ class UnitConverter {
     }
     
     
-    
-    
-    
+    func convertToCelsius(degreesF: Int) -> Int {
+        return Int(5.0 / 9.0 * (Double(degreesF) - 32.0))
+    }
 }
+
+
+
